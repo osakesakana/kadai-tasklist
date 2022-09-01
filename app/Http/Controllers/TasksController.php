@@ -65,7 +65,7 @@ class TasksController extends Controller
         ]);
 
         // トップページへリダイレクトさせる
-        return view('/');
+        return redirect('/');
     }
 
     /**
